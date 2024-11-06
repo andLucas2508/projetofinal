@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="shortcut icon" href="img/favicon.ico" >
+    <link rel="stylesheet" href="carrinho.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+     <!--barra de navegação-->
+     <nav>
+        <ul>
+            <li><a href="pf.html"><img src="img/favicon.ico" alt=""></a></li>
+            <li><a href="pf.html">Ínicio</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="nossosprodutos.html">Nossos Produtos</a></li>
+            <li><a href="carrinho.html">Carrinho</a></li>
+            </li>
+           
+        </ul>
+    </nav>
+
+<br>
+   
+
+<main>
+    <section class="carinho">
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Preço Unitário</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>produto 1</td>
+                    <td>
+                        <input type="number" value="1" min="1" class="quantidade">
+                    </td>
+                </tr>
+
+
+
+                <tr>
+                    <td>produto 2</td>
+                    <td>
+                        <input type="number" value="1" min="1" class="quantidade">
+                    </td>
+                    <td class="preço-unitario">R$30,00</td>
+                    <td class="preço-total">R$30,00</td>
+                    <td>
+                        <button class="remover-produto">Remover</button>
+                    </td>
+                </tr>
+
+
+
+            </tbody>
+        </table>
+
+        <div class="total-final">
+            <h3>Total final: <span id="total-final">R$30,00</span></h3>
+        </div>
+    </section>
+</main>
+<script src="script.js"></script>
+
+<br><br><br><br><br>
+
+
+<footer>
+
+    <div class="footer-section">
+        <h4>Contato</h4>
+        <p>Email: margaridaflorecultura@gmail.com</p>
+        <p>Telefone: (19) 98874-0088</p>
+        <p>Endereço: Jardim Flores, Rua Margarida n°222, Campinas, SP</p>
+    </div>
+
+    <div class="footer-section">
+        <h4>Siga-nos</h4>
+        <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a><br>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a><br>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </div>
+</div>
+
+<div class="footer-bottom">
+    <p>&copy;2024 Empresa. Todos os direitos reservados pela floricultura Isa Bellas Flores.</p>
+</div>
+</footer>
+</body>
+
+
+
+
+</body>
+</html>
